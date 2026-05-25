@@ -2,11 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "env": {
-    "REACT_APP_API_URL": "@ocr-api-url"
+    "REACT_APP_API_URL": "/api/ocr"
   },
   "functions": {
     "api/ocr.py": {
-      "maxDuration": 300,
+      "maxDuration": 60,
       "memory": 2048
     }
   }
