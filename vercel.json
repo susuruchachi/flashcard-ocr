@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "env": {
+    "REACT_APP_API_URL": "@ocr-api-url"
+  },
+  "functions": {
+    "api/ocr.py": {
+      "maxDuration": 300,
+      "memory": 3008
+    }
+  }
+}
